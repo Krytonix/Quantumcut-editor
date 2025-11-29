@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumCut - Video Editor</title>
+    <link rel="stylesheet" href="editor-style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">QuantumCut</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">File</a></li>
+                <li><a href="#">Edit</a></li>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="editor-container">
+        <aside class="left-panel">
+            <div class="panel-header">Assets</div>
+            <div class="panel-content"></div>
+            <div class="panel-header">Effects</div>
+            <div class="panel-content"></div>
+            <div class="panel-header">Transitions</div>
+            <div class="panel-content"></div>
+        </aside>
+
+        <main class="main-editor-area">
+            <div class="video-preview">
+                <div class="preview-header">Video Preview</div>
+                <div class="preview-content"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-header">Timeline</div>
+                <div class="timeline-tracks">
+                    <div class="track">Video Track 1</div>
+                    <div class="track">Audio Track 1</div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-panel">
+            <div class="panel-header">Tools</div>
+            <div class="panel-content"></div>
+            <div class="panel-header">Color Grading</div>
+            <div class="panel-content"></div>
+            <div class="panel-header">Audio Mixer</div>
+            <div class="panel-content"></div>
+        </aside>
+    </div>
+
+    <script src="editor-script.js"></script>
+</body>
+</html>
